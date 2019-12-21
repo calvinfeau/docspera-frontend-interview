@@ -1,16 +1,51 @@
-Body{
+Body {
 	Align-Items:		Center;
 	Display:			Flex;
 	Min-Height:			100vh;
 	Justify-Content:	Center;
 	Margin:				0;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.25em;
+	font-family: monospace;
 }
-
-Loading{
+Loading {
 	Color:				#333333;
 	Transform:			scale(1.5);
 }
-Loading > I{
+Loading > I {
 	Color:				#0096FA;
 	Margin-Right:		5px;
+}
+
+section {
+	display: flex;
+	margin: 5px 0;
+}
+.title {
+	font-weight: 700;
+	min-width: 25%;
+}
+.card {
+	width: 750px;
+	padding: 30px;
+	margin: 30px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+.surgery {
+	background-color: #AFDCFA;
+}
+.clinical {
+	background-color: rgb(255, 211, 169);
+}
+
+@media only screen and (max-width: 800px) {
+	.card {
+		width: auto;
+		max-width: 500px;
+	}
 }
