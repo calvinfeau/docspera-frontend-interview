@@ -4,6 +4,7 @@ Body {
 	Min-Height:			100vh;
 	Justify-Content:	Center;
 	Margin:				0;
+	/* new addition bellow */
 	flex-direction: column;
 	justify-content: center;
 	font-size: 1.25em;
@@ -43,7 +44,10 @@ section {
 	background-color: rgb(255, 211, 169);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
+	body {
+		font-size: 1em;
+	}
 	.card {
 		width: auto;
 		max-width: 500px;
