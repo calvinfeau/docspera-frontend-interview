@@ -49,6 +49,7 @@ section {
 	background-color: rgb(255, 211, 169);
 }
 .button {
+	height: 20px;
 	display: flex;
 	justify-content: center;
 	padding: 10px 0;
