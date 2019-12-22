@@ -21,16 +21,21 @@ Loading > I {
 
 section {
 	display: flex;
-	margin: 5px 0;
+	padding: 5px 0;
 }
 .title {
 	font-weight: 700;
 	min-width: 25%;
 }
+.line {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid black;
+}
 .card {
 	width: 750px;
-	padding: 30px;
-	margin: 30px;
+	padding: 25px 25px 0;
+	margin: 25px;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -42,6 +47,14 @@ section {
 }
 .clinical {
 	background-color: rgb(255, 211, 169);
+}
+.button {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+.button > i:hover {
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 850px) {
